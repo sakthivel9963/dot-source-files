@@ -1,0 +1,33 @@
+
+# ----------------------
+# Git Aliases
+# ----------------------
+alias ga='git add'
+alias gaa='git add .'
+alias gaaa='git add -A'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gcl='git clone'
+alias gd='git diff'
+alias gi='git init'
+alias gl='git log'
+alias gp='git pull'
+alias gpsh='git push'
+alias gss='git status'
+alias gcko='git checkout'
+alias gcln='git clean -fd'
+
+# ---------------------
+# User aliases
+# ---------------------
+alias gitconfig="subl ~/.gitconfig"
+alias bashconfig="subl ~/Documents/dot-source-files/bash/.bash_profile"
+alias userconfig="subl ~/Documents/dot-source-files/bash/.user_config"
+alias useralias="subl ~/Documents/dot-source-files/bash/.user_alias"
+alias installconfig="subl ~/Documents/dot-source-files/install/install.sh"
+alias commandconfig="subl ~/Documents/dot-source-files/bash/command.txt"
+alias xclip="xclip -selection clipboard"
+alias open="gnome-open $@"
+alias yt="youtube-dl --add-metadata -ic"
+alias yta="youtube-dl --add-metadata --audio-format mp3 -icx"
+alias catc="pygmentize -g"

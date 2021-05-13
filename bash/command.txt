@@ -1,0 +1,30 @@
+netstat command :
+-----------------
+
+sudo netstat -tnlp
+sudo netstat -tnlp | grep :220
+
+sudo lsof -i -P -n | grep LISTEN
+
+-----------------------------
+
+Firewall command :
+------------------
+
+sudo ufw status
+sudo ufw enable
+sudo ufw disable
+sudo ufw allow ssh
+
+# enable vpn in the firewall
+sudo ufw allow 1194/udp
+
+------------------------------
+
+List service : (list all the service in the linux)
+--------------
+
+service --status-all
+
+--------------------------------
+

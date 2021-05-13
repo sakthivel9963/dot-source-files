@@ -1,0 +1,14 @@
+nvm command
+-----------
+
+https://github.com/nvm-sh/nvm
+
+nvm install --lts // to install latest verison of node js
+
+nvm list // to list all the node version
+
+nvm use --lts // to use the latest nodejs version or specific the node version(10.5.2) nvm use v14.15.1
+
+nvm alias default node // to set default node version to system level terminal
+
+--------------------------------

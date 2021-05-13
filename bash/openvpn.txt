@@ -1,0 +1,42 @@
+openvpn:
+--------
+
+Install openvpn:
+----------------
+
+mkdir ~/vpn
+
+cd ~/vpn
+
+wget https://git.io/vpn -O openvpn-install.sh
+
+chmod +x openvpn-install.sh
+
+sudo ./openvpn-install.sh
+
+move the vpn file to normal user:
+---------------------------------
+
+mv client_ec2.ovpn ~ubuntu/vpn/
+
+chown ubuntu ~ubuntu/vpn/client_ec2.ovpn 
+
+--------------------------------
+
+openvpn configuraion:
+---------------------
+
+sudo nano /etc/openvpn/server/server.conf
+
+add the below lines:
+--------------------
+
+duplicate-cn
+verb 0
+
+restart openvpn:
+----------------
+
+sudo systemctl restart openvpn-server@server.service
+
+--------------------------------

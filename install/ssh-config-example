@@ -1,0 +1,17 @@
+create config file in the ssh folder
+
+touch ~/.ssh/config
+
+give the file read and write permission for the current user
+
+chmod 600 ~/.ssh/config
+
+chmod 400 permission to the pem file
+
+config file structure and pattern
+
+Host targaryen
+    HostName 192.168.1.10
+    User daenerys
+    Port 7654
+    IdentityFile ~/.ssh/targaryen.key
