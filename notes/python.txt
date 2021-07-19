@@ -1,0 +1,46 @@
+if you have python3-venv install use below command:
+
+	create:
+	-------
+	python3 -m venv test/env 
+
+	activate:
+	---------
+	source env/bin/activate
+
+	deactivate:
+	-----------
+	deactivate
+
+================================================================
+
+if you have virtualenv install use below command:
+
+	create:
+	-------
+	virtualenv test/env
+
+	activate:
+	---------
+	source env/bin/activate
+
+	deactivate:
+	-----------
+	deactivate
+
+================================================================
+
+if you have direnv install use below command:
+
+	echo "layout python3" > .envrc
+
+=================================================================
+
+pip commands:
+-------------
+pip list
+pip freeze
+pip install package_name
+pip uninstall package_name
+
+==================================================================

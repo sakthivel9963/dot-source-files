@@ -32,8 +32,9 @@ Python and pip packages
 sudo apt install -y python3
 sudo apt install -y python3-pip
 sudo apt install -y python3-pygments
+sudo apt install -y python3-venv 
 pip install powerline-shell
-
+pip3 install virtualenv
 
 echo "
 ***********************************************
