@@ -12,6 +12,7 @@ export HISTFILESIZE=10000
 export HISTIGNORE='*sudo -S*'
 
 export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/.local/bin
 
 # Node change the path for global package
 export PATH=~/.npm-global/bin:$PATH
