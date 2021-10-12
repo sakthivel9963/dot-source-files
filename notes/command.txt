@@ -6,6 +6,10 @@ sudo netstat -tnlp | grep :220
 
 sudo lsof -i -P -n | grep LISTEN
 
+kill -9 $(lsof -t -i:portnumber)
+
+kill -9 $(lsof -t -i:4000) 
+
 -----------------------------
 
 Firewall command :
