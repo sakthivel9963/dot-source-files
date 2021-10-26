@@ -4,11 +4,11 @@ sudo apt install -y python3-venv
 
 	create:
 	-------
-	python3 -m venv test/env 
+	python3 -m venv .venv 
 
 	activate:
 	---------
-	source env/bin/activate
+	source .venv/bin/activate
 
 	deactivate:
 	-----------
@@ -22,11 +22,11 @@ pip3 install virtualenv
 
 	create:
 	-------
-	virtualenv test/env
+	virtualenv .venv
 
 	activate:
 	---------
-	source env/bin/activate
+	source .venv/bin/activate
 
 	deactivate:
 	-----------
