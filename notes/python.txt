@@ -1,5 +1,7 @@
 if you have python3-venv install use below command:
 
+sudo apt install -y python3-venv 
+
 	create:
 	-------
 	python3 -m venv test/env 
@@ -15,6 +17,8 @@ if you have python3-venv install use below command:
 ================================================================
 
 if you have virtualenv install use below command:
+
+pip3 install virtualenv
 
 	create:
 	-------
@@ -43,5 +47,7 @@ pip freeze
 pip install package_name
 pip uninstall package_name
 pip install isort black autopep8 flake8
+pip freeze > requirements.txt
+pip freeze | sed 's/==.*$/''/' > requirements.txt
 
 ==================================================================
