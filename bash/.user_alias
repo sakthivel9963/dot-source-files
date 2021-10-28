@@ -21,6 +21,7 @@ alias gcln='git clean -fd'
 # User aliases
 # ---------------------
 alias gitconfig="subl ~/.gitconfig"
+alias zshconfig="subl ~/.zshrc"
 alias bashconfig="subl ~/Documents/dot-source-files/bash/.bash_profile"
 alias userconfig="subl ~/Documents/dot-source-files/bash/.user_config"
 alias useralias="subl ~/Documents/dot-source-files/bash/.user_alias"
