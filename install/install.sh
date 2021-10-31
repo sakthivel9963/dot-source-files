@@ -43,6 +43,7 @@ Basic System Tools
 ";
 sudo apt install -y terminator gnome-tweak-tool qbittorrent dconf-editor curl wget tor git gimp vlc ssh gedit-plugins gufw network-manager-openvpn openvpn network-manager-openvpn-gnome htop mlocate filezilla gparted ubuntu-restricted-extras ffmpeg
 
+sudo apt install -y fd-find
 sudo apt install -y libgnome2-0
 sudo apt install -y libmpv1
 sudo apt install -y fonts-powerline fonts-font-awesome
