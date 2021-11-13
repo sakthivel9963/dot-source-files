@@ -14,8 +14,8 @@
     background_type = transparent
     cursor_shape = ibeam
     cursor_color = "#aaaaaa"
-    font = Operator Mono Semi-Light 13
-    foreground_color = "#ffff00"
+    font = Cascadia Code Italic 13
+    foreground_color = "#20c20e"
     show_titlebar = False
     scroll_on_output = True
     scrollback_infinite = True
