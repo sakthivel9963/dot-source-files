@@ -30,4 +30,5 @@ alias installconfig="subl ~/Documents/dot-source-files/install/install.sh"
 alias xclip="xclip -selection clipboard"
 alias yt="youtube-dl --add-metadata -ic"
 alias yta="youtube-dl --add-metadata --audio-format mp3 -icx"
-alias cat="pygmentize -g"
+alias catc="pygmentize -g"
+alias ls=lsd

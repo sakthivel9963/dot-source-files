@@ -70,6 +70,37 @@ sudo apt install -y direnv
 
 echo "
 ***********************************************
+bat package
+***********************************************
+";
+sudo apt install -y bat
+mkdir -p ~/.local/bin
+ln -s /usr/bin/batcat ~/.local/bin/bat
+
+echo "
+***********************************************
+gud package
+***********************************************
+";
+wget -O gdu.tgz https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz
+tar xf gdu.tgz
+sudo mv gdu_linux_amd64 /usr/local/bin/gdu
+gdu --version
+
+echo "
+***********************************************
+lsd package
+***********************************************
+";
+download lsd from "https://github.com/Peltoche/lsd"
+sudo dpkg -i "download package name" #eg: lsd_0.20.1_amd64.deb
+# create .fonts folder for the local user config fonts 
+mkdir ~/.fonts
+move all the download fonts to "~/.fonts" folder
+
+
+echo "
+***********************************************
 tor browser
 ***********************************************
 ";
