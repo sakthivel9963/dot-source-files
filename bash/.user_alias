@@ -32,3 +32,4 @@ alias yt="youtube-dl --add-metadata -ic"
 alias yta="youtube-dl --add-metadata --audio-format mp3 -icx"
 alias catc="pygmentize -g"
 alias ls=lsd
+alias open='xdg-open'
