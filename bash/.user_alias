@@ -17,6 +17,7 @@ alias gf='git fetch'
 alias gss='git status'
 alias gcko='git checkout'
 alias gcln='git clean -fd'
+alias gm='git merge'
 
 # ---------------------
 # User aliases
