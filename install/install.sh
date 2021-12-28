@@ -41,7 +41,7 @@ echo "
 Basic System Tools
 ***********************************************
 ";
-sudo apt install -y terminator gnome-tweak-tool qbittorrent dconf-editor curl wget tor git gimp vlc ssh gedit-plugins gufw network-manager-openvpn openvpn network-manager-openvpn-gnome htop mlocate filezilla gparted ubuntu-restricted-extras ffmpeg libgnome2-bin fd-find
+sudo apt install -y terminator gnome-tweak-tool qbittorrent dconf-editor curl wget tor git gimp vlc ssh gedit-plugins gufw network-manager-openvpn openvpn network-manager-openvpn-gnome htop mlocate filezilla gparted ubuntu-restricted-extras ffmpeg fd-find
 
 sudo apt install -y libgnome2-0
 sudo apt install -y libmpv1
@@ -290,11 +290,20 @@ sudo apt install -y insomnia
 
 echo "
 ***********************************************
-git default setting
+git default setting global user
 ***********************************************
 ";
 # git config --global user.email ""
 # git config --global user.name ""
+
+echo "
+***********************************************
+git default setting specific project
+***********************************************
+";
+# git config user.email ""
+# git config user.name ""
+
 
 echo "
 ***********************************************
