@@ -211,3 +211,5 @@ if [ $SHELL = '/bin/zsh' ]; then
 		# }
 
 fi
+
+# plugins=(zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
