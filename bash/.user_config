@@ -83,6 +83,11 @@ function mkcd(){
 	mkdir -p $1 && cd $1
 }
 
+# convert ts to mkv format
+function video_format(){
+	ffmpeg -i "$@" -map 0 -c copy "$@".mkv && rm -rf "$@"
+}
+
 if [ $SHELL = '/bin/bash' ]; then
 		# First need to install fzf in the root folder
 		# git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
