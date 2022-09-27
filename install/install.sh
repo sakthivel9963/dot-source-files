@@ -41,7 +41,7 @@ echo "
 Basic System Tools
 ***********************************************
 ";
-sudo apt install -y terminator gnome-tweak-tool qbittorrent dconf-editor curl wget tor git gimp vlc ssh gedit-plugins gufw network-manager-openvpn openvpn network-manager-openvpn-gnome htop mlocate filezilla gparted ubuntu-restricted-extras ffmpeg fd-find
+sudo apt install -y terminator gnome-tweak-tool qbittorrent dconf-editor curl wget tor git gimp vlc ssh gedit-plugins gufw tmux network-manager-openvpn openvpn network-manager-openvpn-gnome htop mlocate filezilla gparted ubuntu-restricted-extras ffmpeg fd-find
 
 sudo apt install -y libgnome2-0
 sudo apt install -y libmpv1
