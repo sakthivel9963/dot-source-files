@@ -1,0 +1,4 @@
+# you can setup multiple github account to use different config file base on the folder structure
+# include for all .git projects under personnal folder will use the below config
+[includeIf "gitdir:~/personal/**"]
+  path = ~/personal/.gitconfig-peers

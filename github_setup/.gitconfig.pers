@@ -1,0 +1,15 @@
+# create a separate folder for different account
+# need to generate different personal_key for different github account
+# add the below config in each folder root path
+# change the email, name, sshCommand based on the account details
+# ~/personal/.gitconfig.peers
+
+[user]
+  email = your_pers_email@example.com
+  name = Your Name
+
+[github]
+  user = ""
+
+[core]
+  sshCommand = "ssh -i ~/.ssh/<personal_key>"
